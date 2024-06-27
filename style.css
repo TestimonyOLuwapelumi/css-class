@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #202339;
+}
+.navLink{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navLink li{
+    margin: 20px;
+    color: #fff;
+}
+
+.navLink li:hover{
+    background-color: red;
+}
+
+.newLi{
+    background-color: #fff;
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: none;
+    margin-left: 30px;
+
+}
+.hero{
+    background-image: url(./Images/flat-lay-burger-ingredients-wooden-table\ 3.jpg);
+    height: 100%;
+    width: 100%;
+}
+.heroChild{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+.heroChild h2{
+    font-size: 80px;
+}
+.heroChild p{
+    font-size: 40px;
+    color: #fff;
+    width: 600px;
+    margin-top: 20px;
+}
+.heroChild button{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+.firstPare{
+    text-align: center;
+}
+
+.firstPare h4{
+    font-size: 30px;
+}
+.firstPare P{
+    font-size: 20px;
+    /* width: 00px; */
+}
+
+.parentDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.firstDiv{
+    margin: 20px;
+}
+.firstDiv img{
+    width: 300px;
+    height: 250px;
+}
+.firstDiv p{
+    width: 300px;
+}
+
+
+.newPare{
+    display: flex;
+    justify-content: center;
+    background-color: #FED084;
+}
+.newFirst{
+    padding: 20px;
+}
+
+.newFirst img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.newSec{
+    padding: 20px;
+}
+
+.newSec h4{
+    font-size: 40px;
+}
+.newSec p{
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+.newSec button{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #202339;
+    color: #fff;
+}
+
+.backSec{
+    background-image: url(./Images/flat-lay-burger-ingredients-wooden-table\ 3.jpg);
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.backSec img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    
+}
+
+.backSec p{
+    font-size: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+.backSec h4{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+
+.backSec2{
+    text-align: center;
+    background-color: #FED084;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.inputBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.inputBtn input{
+    border-radius: 200px;
+    padding: 10px;
+
+}
+
+.inputBtn button{
+    border-radius: 200px;
+    padding: 10px;
+    background-color: #202339;
+    color: #fff;
+    margin-left: -40px;
+}
+
+footer{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    padding: 100px;
+}
+.contDiv{
+    font-size: 20px;
+    margin-right: 230px;
+}
+.contDiv p{
+    width: 600px;
+}
+.listDiv{
+    display: flex;
+    
+}
+.listDiv ul{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.listDiv ul li{
+    font-size: 20px;
+}
+
+.lib{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:800px){
+    
+    header{
+        background-color: #202339;
+        height: 30px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .navLink{
+        list-style: none;
+        display: none;
+        justify-content: center;
+    }
+
+    .newLi{
+        display: block;
+    }
+
+    
+    .firstPare{
+        text-align: center;
+    }
+    
+    .firstPare h4{
+        font-size: 30px;
+    }
+    .firstPare P{
+        font-size: 20px;
+        /* width: 00px; */
+    }
+    
+    .parentDiv{
+        display: block;
+        text-align: center;
+    }
+    
+    .firstDiv{
+        margin: 20px;
+    }
+    .firstDiv img{
+        width: 300px;
+        height: 250px;
+    }
+    .firstDiv p{
+        width: 300px;
+        margin-left: 150px;
+    }
+
+    .heroChild p{
+        font-size: 40px;
+        color: #fff;
+        width: 300px;
+        margin-top: 20px;
+    }
+.newPare{
+    display: block;
+    justify-content: center;
+    background-color: #FED084;
+}
+.newFirst{
+    padding: 20px;
+}
+
+.newFirst img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.newSec{
+    padding: 20px;
+}
+
+.newSec h4{
+    font-size: 40px;
+}
+.newSec p{
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+}
+.newSec button{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #202339;
+    color: #fff;
+}
+
+footer{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    padding: 100px;
+}
+.contDiv{
+    font-size: 20px;
+    margin-right: 230px;
+}
+.contDiv p{
+    width: 400px;
+}
+.listDiv{
+    display: flex;
+    
+}
+.listDiv ul{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.listDiv ul li{
+    font-size: 20px;
+}
+
+.lib{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+}
